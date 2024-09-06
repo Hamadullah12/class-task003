@@ -53,9 +53,32 @@ let data = [
         b: "1",
         c: "0",
         d: "0.5",
-        ans: "ans2"
+        ans: "ans1"
+    },
+    {
+        Q: "What is the ans of 2-2?",
+        a: "4",
+        b: "1",
+        c: "0",
+        d: "0.5",
+        ans: "ans3"
+    },
+    {
+        Q: "What is the ans of 0/2?",
+        a: "4",
+        b: "1",
+        c: "0",
+        d: "0.5",
+        ans: "ans3"
+    },
+    {
+        Q: "What is the ans of 8/2?",
+        a: "4",
+        b: "1",
+        c: "0",
+        d: "0.5",
+        ans: "ans1"
     }
-
 
 ]
 
