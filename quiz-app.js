@@ -56,7 +56,7 @@ let option2 = document.getElementById("opt2");
 let option3 = document.getElementById("opt3");
 let option4 = document.getElementById("opt4");
 
-let answers
+let answers = document.querySelectorAll(".options");
 
 let num = 0;
 
@@ -67,6 +67,12 @@ option3.innerHTML = data[num].c;
 option4.innerHTML = data[num].d;
 
 function checkAns(){
+let ans;
+answers.forEach((curElement)=>{
+if(curElement.checked){
+    ans = curElement.id;
+}
+})
 
 }
 
