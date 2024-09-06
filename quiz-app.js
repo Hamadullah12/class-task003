@@ -46,7 +46,16 @@ let data = [
         c: "0",
         d: "0.5",
         ans: "ans2"
+    },
+    {
+        Q: "What is the ans of 2/2?",
+        a: "4",
+        b: "1",
+        c: "0",
+        d: "0.5",
+        ans: "ans2"
     }
+
 
 ]
 
@@ -97,7 +106,7 @@ function next() {
     option3.innerHTML = data[num].c;
     option4.innerHTML = data[num].d;
 } else{
-    myScore.innerHTML=`You Scored ${score}/${data.length} <br/> `
+    myScore.innerHTML=`You Scored ${score}/${data.length} `
 }
 
 }
