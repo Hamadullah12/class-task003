@@ -48,8 +48,8 @@ let data = [
         ans: "ans2"
     },
     {
-        Q: "What is the ans of 2/2?",
-        a: "4",
+        Q: "What is the ans of 4/2?",
+        a: "2",
         b: "1",
         c: "0",
         d: "0.5",
